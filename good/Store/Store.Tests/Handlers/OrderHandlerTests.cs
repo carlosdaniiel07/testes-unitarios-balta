@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xunit;
-using Store.Domain.Handlers.Interfaces;
+﻿using Store.Domain.Commands;
 using Store.Domain.Handlers;
 using Store.Domain.Repositories;
 using Store.Tests.Repositories;
-using Store.Domain.Commands;
+using System;
+using Xunit;
 
 namespace Store.Tests.Handlers
 {
